@@ -1,0 +1,31 @@
+var b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50];
+
+
+console.log("---If the number odd then multiplie it  by 2 ----");
+for(i=0;i<b.length;i++){
+    if(b[i]%2 !==0){
+        console.log(b[i]*2);
+    }
+}
+
+console.log("---If the number even subtract one---");
+for(i=0;i<b.length;i++){
+    if(b[i]%2 === 0){
+    console.log(b[i]-1);
+    }
+}
+
+console.log("---If the number divisible by 5  power it  by 2 ---");
+for(i=0;i<b.length;i++){
+    if(b[i]%5 === 0){
+    console.log(Math.pow(b[i],2));
+    }
+}
+
+console.log("--IF the number divisible by 10 do loop from 0 to number(step 10)--");
+for(i=0;i<b.length;i++){
+    if(b[i]%10 === 0){
+        for(j=0;j<=b[i];j+=10)
+    console.log(j);
+    }
+}
