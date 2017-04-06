@@ -1,0 +1,33 @@
+Home work 10 q4 javascript
+
+
+
+a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+
+
+for (i=0;i<a.length;i++){
+ if(i%2 ===0){
+ console.log(a[i]);
+}
+else{
+console.log(a[i].split("").reverse("").join(""));
+}
+}
+
+
+//////////////////////////////////
+
+
+Ruby
+
+a =["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"]
+
+a.each_with_index {|i,x|
+if x=x%2==0 
+  puts i 
+else 
+  puts i.reverse
+  
+end
+
+}
