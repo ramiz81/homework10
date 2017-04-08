@@ -1,0 +1,22 @@
+Home work 10 q1 javascript
+
+
+
+var a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+
+
+for(i = 2; i < a.length; i=i+3) {
+    console.log(a[i].toUpperCase());
+    
+   }
+
+///////////////////////////////////////////
+
+ruby
+
+ a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"]
+
+(2...(a.length)).step(3) do |n|
+  puts a[n].upcase
+ 
+end
