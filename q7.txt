@@ -1,0 +1,51 @@
+Homework 10 q7 
+
+
+var b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50];
+
+console.log (b);
+var i=0;
+var y=[];
+var x=[];
+var z=0;
+var n=0;
+
+for(i=0;i<b.length;++i){
+   y[z]=(2/3*b[i]+1/2);
+   console.log (y[z]);
+}
+
+for (i=0;i<b.length ;++i){
+    for (z=0;z<y.length;++z){
+    x[n]=(y[z]*b[i]);
+    console.log (x[n]);
+}
+
+}
+
+
+Ruby
+
+b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50]
+
+
+
+puts (b)
+ i=0
+ y=[]
+ x=[]
+ z=0
+ n=0
+
+b.each do |element|
+
+   y[i]=2/3.to_f*element+1/2.to_f
+   puts y[i]
+   end
+   b.each do |element|
+   y.each do |element|
+   x[n]=(y[z]*element)
+   puts x[n]
+   
+   end
+   end
