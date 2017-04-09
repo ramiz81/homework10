@@ -1,0 +1,10 @@
+Home work 10 q5
+
+
+5. Write a Ruby program that will read the innerHTML of a <p> tag, and print it to the screen in reverse.
+
+Answer
+
+Can not make it 
+ 
+Because the html is client side technology and ruby is server side technology 
